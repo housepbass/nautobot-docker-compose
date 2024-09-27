@@ -18,5 +18,5 @@ class InitialDesign(DesignJob):
         design_file = "designs/0001_design.yaml.j2"
         context_class = InitialDesignContext
 
-name = "Demo Designs"
+name = "Test Designs"
 register_jobs(InitialDesign)
